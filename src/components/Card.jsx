@@ -39,7 +39,7 @@ const Card = () => {
 
         <div className="footer flex pt-6 items-center ">
           <img
-            src="nft-component\src\assets\DM_Pic.jpg"
+            src="src\assets\DM_Pic.jpg"
             alt=""
             className="w-[40px] h-[40px] object-cover rounded-full border"
           />
