@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://devonxfire.github.io/nft-component/)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Source Code](https://github.com/devonxfire/nft-component)
+- Live Site URL: [Live site on GitHub pages](https://devonxfire.github.io/nft-component/)
 
 ## My process
 
