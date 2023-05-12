@@ -1,15 +1,15 @@
 import React from "react";
+import eth from "../assets/icon-ethereum.svg";
+import clock from "../assets/icon-clock.svg";
+import tile from "../assets/image-equilibrium.jpg";
+import devon from "../assets/DM_Pic.jpg";
 
 const Card = () => {
   return (
     <div className="wrapper bg-[#0d1a2d] min-h-screen flex flex-col items-center justify-center font-outfit">
       <div className="card-container max-w-[375px]  my-8 p-6  bg-[#14273e] rounded-xl shadow-2xl">
         <div className="img-container">
-          <img
-            src="src\assets\image-equilibrium.jpg"
-            alt=""
-            className="rounded-xl w-ful "
-          />
+          <img src={tile} alt="" className="rounded-xl w-ful " />
         </div>
         <h1 className="text-white pt-6 text-xl font-extrabold hover:text-[#00fff8] hover:cursor-pointer">
           Equilibrium #3429
@@ -20,26 +20,18 @@ const Card = () => {
 
         <div className="bottom-container flex justify-between pt-6 border-b border-slate-500 pb-8">
           <div className="flex items-center">
-            <img
-              src="src\assets\icon-ethereum.svg"
-              alt=""
-              className="w-[15px] h-[20px]"
-            />
+            <img src={eth} alt="" className="w-[15px] h-[20px]" />
             <p className="pl-3 text-[#00fff8]">0.041 ETH</p>
           </div>
           <div className="flex items-center">
-            <img
-              src="\src\assets\icon-clock.svg"
-              alt=""
-              className="w-[20px] h-[20px]"
-            />
+            <img src={clock} alt="" className="w-[20px] h-[20px]" />
             <p className="pl-3 text-[#b1bacc]">3 days left</p>
           </div>
         </div>
 
         <div className="footer flex pt-6 items-center ">
           <img
-            src="src\assets\DM_Pic.jpg"
+            src={devon}
             alt=""
             className="w-[40px] h-[40px] object-cover rounded-full border"
           />
